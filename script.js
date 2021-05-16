@@ -31,6 +31,9 @@ button.addEventListener('click', function () {
         else if (car1win > car2win) {
             return car1win
         }
+        else if (car1win === car2win) {
+            return car1win
+        }
     }
     setTimeout(function () {
         car1.classList.remove('transition')
@@ -50,6 +53,9 @@ button.addEventListener('click', function () {
             alert('Car 2 won this round.')
             span2.innerHTML = ++car2count
             announceWinner(maxCountChoice)
+        }
+        else if (car1win === car2win) {
+            alert('Draw?')
         }
         button.removeAttribute('disabled')
     }, timeoutHelper() + 250)
