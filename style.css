@@ -8,7 +8,7 @@ section {
   text-align: center;
 }
 
-button {
+.btnDefault {
   background-color: silver;
   border: none;
   border-radius: 1rem;
@@ -18,7 +18,7 @@ button {
   padding: 0.75rem;
 }
 
-button:active {
+.btnDefault:active {
   background-color: rgb(110, 110, 110);
 }
 
@@ -46,4 +46,25 @@ img {
   position: absolute;
   right: 15vw;
   top: 0vh;
+}
+
+.custom {
+  background-color: rgb(230, 230, 230);
+  border: 0.15rem solid rgb(160, 160, 160);
+  border-radius: 1rem;
+  display: none;
+  height: fit-content;
+  left: 50%;
+  padding-top: 2.5rem;
+  position: absolute;
+  text-align: center;
+  top: 1.5rem;
+  transform: translateX(-50%);
+  transition: opacity 0.75s;
+  width: 30rem;
+}
+
+.custom .btnDefault {
+  margin: 2.5rem;
+  width: 7.5rem;
 }

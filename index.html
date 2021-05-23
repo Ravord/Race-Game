@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <title>Race!</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script defer src="script.js"></script>
 </head>
 
 <body>
     <section>
         <h2>Race!</h2>
-        <button>Start the race!</button>
+        <button class="btnDefault">Start the race!</button>
     </section>
     <br />
     <hr />
@@ -24,6 +24,21 @@
         <p>Car 2 count is... <span class="car2count">0</span></p>
     </section>
     <div class="finish"></div>
+    <div class="custom alert">
+        <span></span>
+        <br /><br />
+        <form>
+            <input class="btnDefault" type="submit" value="OK" />
+        </form>
+    </div>
+    <div class="custom prompt">
+        <span></span>
+        <br /><br />
+        <form>
+            <input autofocus type="text" /><br />
+            <input class="btnDefault" type="submit" value="OK" />
+        </form>
+    </div>
 </body>
 
 </html>
