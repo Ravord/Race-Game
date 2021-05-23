@@ -35,6 +35,7 @@ async function customDivPrompt(msg) {
     divPrompt.style.opacity = 'initial'
     divPrompt.style.display = 'initial'
     promptMessage.innerHTML = msg
+    promptText.focus()
     let formEvent = new Promise(function (resolve) {
         promptForm.addEventListener('submit', function (event) {
             event.preventDefault()
