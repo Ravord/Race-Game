@@ -43,7 +43,7 @@ async function customDivPrompt(msg) {
             setTimeout(function () {
                 divPrompt.style.display = 'none'
             }, 750)
-            return resolve(promptText.value)
+            return resolve(Math.floor(promptText.value))
         })
     })
     return await formEvent
