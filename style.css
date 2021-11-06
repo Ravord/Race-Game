@@ -1,5 +1,5 @@
 body {
-  color: rgb(110, 110, 110);
+  color: hsl(0, 0%, 45%);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.75rem;
 }
@@ -19,7 +19,7 @@ section {
 }
 
 .btnDefault:active {
-  background-color: rgb(110, 110, 110);
+  background-color: hsl(0, 0%, 45%);
 }
 
 hr {
@@ -36,12 +36,12 @@ img {
 
 .transition {
   transition-property: margin-left;
-  transition-timing-function: cubic-bezier(2, 4, 2, 8);
+  transition-timing-function: cubic-bezier(0.6, 0.5, 0.4, 0.5);
 }
 
 .finish {
-  background-color: rgb(110, 110, 110);
-  border: 0.15rem solid rgb(110, 110, 110);
+  background-color: hsl(0, 0%, 45%);
+  border: 0.15rem solid hsl(0, 0%, 45%);
   height: 40rem;
   position: absolute;
   right: 15vw;
@@ -49,8 +49,8 @@ img {
 }
 
 .custom {
-  background-color: rgb(230, 230, 230);
-  border: 0.15rem solid rgb(160, 160, 160);
+  background-color: hsl(0, 0%, 90%);
+  border: 0.15rem solid hsl(0, 0%, 65%);
   border-radius: 1rem;
   display: none;
   height: fit-content;

@@ -64,8 +64,8 @@ customDivPrompt('To how many points do you want to play up to?<br /><br />MIN: 1
         car1.style.transitionDuration = car1win + 'ms'
         let car2win = (Math.random() + 10) * 250
         car2.style.transitionDuration = car2win + 'ms'
-        car1.style.marginLeft = '90vw'
-        car2.style.marginLeft = '90vw'
+        car1.style.marginLeft = '85vw'
+        car2.style.marginLeft = '85vw'
         function timeoutHelper() {
             if (car1win < car2win) {
                 return car2win
