@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 1.25rem;
+  }
+  hr {
+    border: 0.375rem solid silver;
+  }
+  img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .custom {
+    width: 75%;
+  }
+}

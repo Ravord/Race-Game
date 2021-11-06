@@ -30,7 +30,7 @@ hr {
 img {
   display: inline-block;
   height: 5rem;
-  margin-left: 0vw;
+  margin-left: 0%;
   width: 5rem;
 }
 
@@ -40,12 +40,11 @@ img {
 }
 
 .finish {
-  background-color: hsl(0, 0%, 45%);
   border: 0.15rem solid hsl(0, 0%, 45%);
   height: 40rem;
   position: absolute;
-  right: 15vw;
-  top: 0vh;
+  right: 15%;
+  top: 0%;
 }
 
 .custom {
@@ -55,7 +54,7 @@ img {
   display: none;
   height: fit-content;
   left: 50%;
-  padding-top: 2.5rem;
+  padding: 1.5rem;
   position: absolute;
   text-align: center;
   top: 1.5rem;
